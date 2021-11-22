@@ -1,0 +1,8 @@
+.card-counts {
+  display: table;
+}
+
+.card-counts span {
+  display: table-cell;
+  vertical-align: middle;
+}

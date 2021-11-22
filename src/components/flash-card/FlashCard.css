@@ -1,0 +1,33 @@
+.flashcard {
+  padding: 60px 10px 10px 10px;
+  display: table;
+}
+
+.flashcard .flashcard-front {
+  display: table-cell;
+}
+
+.flashcard .flashcard-back {
+  display: none;
+}
+
+.flashcard .flashcard-front,
+.flashcard .flashcard-back {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20vw;
+}
+
+.flashcard .flashcard-front span,
+.flashcard .flashcard-back span {
+  display: block;
+  font-size: 10vw;
+}
+
+.flashcard.flip .flashcard-front {
+  display: none;
+}
+
+.flashcard.flip .flashcard-back {
+  display: table-cell;
+}

@@ -1,0 +1,14 @@
+[
+  { "i": 1, "c": "ch1", "f": "你", "bp": "nǐ", "be": "you (singular)" },
+  { "i": 2, "c": "ch1", "f": "好", "bp": "hǎo", "be": "good" },
+  { "i": 3, "c": "ch1", "f": "你好", "bp": "nǐ hǎo", "be": "hello" },
+  { "i": 4, "c": "ch2", "f": "2 你", "bp": "nǐ", "be": "you (singular)" },
+  { "i": 5, "c": "ch2", "f": "2 好", "bp": "hǎo", "be": "good" },
+  { "i": 6, "c": "ch2", "f": "2 你好", "bp": "nǐ hǎo", "be": "hello" },
+  { "i": 7, "c": "ch3", "f": "3 你", "bp": "nǐ", "be": "you (singular)" },
+  { "i": 8, "c": "ch3", "f": "3 好", "bp": "hǎo", "be": "good" },
+  { "i": 9, "c": "ch3", "f": "3 你好", "bp": "nǐ hǎo", "be": "hello" },
+  { "i": 10, "c": "ch4", "f": "4 你", "bp": "nǐ", "be": "you (singular)" },
+  { "i": 11, "c": "ch4", "f": "4 好", "bp": "hǎo", "be": "good" },
+  { "i": 12, "c": "ch4", "f": "4 你好", "bp": "nǐ hǎo", "be": "hello" }
+]
