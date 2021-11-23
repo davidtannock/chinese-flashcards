@@ -3,7 +3,7 @@ import ActionButton from "./ActionButton";
 import { ReactComponent as Logo } from "../../images/shuffle.svg";
 
 it("renders a generic button with a logo and text", () => {
-  const onClick = () => {};
+  const onClick = jest.fn();
   render(<ActionButton label="Test Action" logo={Logo} onClick={onClick} />);
 
   expect(screen.getByText("Test Action")).toBeTruthy();
@@ -11,17 +11,12 @@ it("renders a generic button with a logo and text", () => {
 });
 
 it("handles a click event", () => {
-  let clicked = false;
-  const onClick = () => {
-    clicked = true;
-  };
+  const onClick = jest.fn();
   const { container } = render(
     <ActionButton label="Test Action" logo={Logo} onClick={onClick} />
   );
-  
-  expect(clicked).toBe(false);
 
-  fireEvent.click(container!.firstChild!);
+  fireEvent.click(container.firstChild!);
 
-  expect(clicked).toBe(true);
+  expect(onClick).toBeCalledTimes(1);
 });

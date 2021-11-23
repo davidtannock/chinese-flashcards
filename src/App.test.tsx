@@ -3,6 +3,7 @@ import * as Constants from "./constants";
 import App from "./App";
 import { Card, sortCards } from "./cards";
 import allCards from "./data/cards.json";
+import { swipeLeft, swipeRight } from "./test-helpers";
 
 const allCardsLastIndex = allCards.length - 1;
 
@@ -44,6 +45,10 @@ const getPreviousButton = (container: HTMLElement): Element => {
 
 const getCategorySelect = (container: HTMLElement): HTMLSelectElement => {
   return container.getElementsByTagName("select").item(0)!;
+};
+
+const getCardEl = (container: HTMLElement): Element => {
+  return container.getElementsByClassName("flashcard").item(0)!;
 };
 
 const assertCurrentCard = (container: HTMLElement, expectedCard: Card) => {
@@ -92,16 +97,27 @@ it("shows the next card when the next button is clicked", () => {
   assertProgress(container, `2/${allCards.length}`);
 });
 
+it("shows the next card when swiped left", () => {
+  const { container } = render(<App />);
+  const flashCard = getCardEl(container);
+
+  swipeLeft(flashCard);
+
+  assertCurrentCard(container, allCards[1]);
+  assertProgress(container, `2/${allCards.length}`);
+});
+
 it("stops when we've reached the end of the list", () => {
   const { container } = render(<App firstCardIndex={allCardsLastIndex - 1} />);
   const nextBtn = getNextButton(container);
+  const flashCard = getCardEl(container);
 
   assertCurrentCard(container, allCards[allCardsLastIndex - 1]);
 
   fireEvent.click(nextBtn);
   fireEvent.click(nextBtn);
-  fireEvent.click(nextBtn);
-  fireEvent.click(nextBtn);
+  swipeLeft(flashCard);
+  swipeLeft(flashCard);
 
   assertCurrentCard(container, allCards[allCardsLastIndex]);
   assertProgress(container, `${allCards.length}/${allCards.length}`);
@@ -117,16 +133,27 @@ it("shows the previous card when the previous button is clicked", () => {
   assertProgress(container, `${allCards.length - 1}/${allCards.length}`);
 });
 
+it("shows the previous card when swiped right", () => {
+  const { container } = render(<App firstCardIndex={allCardsLastIndex} />);
+  const flashCard = getCardEl(container);
+
+  swipeRight(flashCard);
+
+  assertCurrentCard(container, allCards[allCardsLastIndex - 1]);
+  assertProgress(container, `${allCards.length - 1}/${allCards.length}`);
+});
+
 it("stops when we've reached the start of the list", () => {
   const { container } = render(<App firstCardIndex={1} />);
   const previousBtn = getPreviousButton(container);
+  const flashCard = getCardEl(container);
 
   assertCurrentCard(container, allCards[1]);
 
   fireEvent.click(previousBtn);
   fireEvent.click(previousBtn);
-  fireEvent.click(previousBtn);
-  fireEvent.click(previousBtn);
+  swipeRight(flashCard);
+  swipeRight(flashCard);
 
   assertCurrentCard(container, allCards[0]);
   assertProgress(container, `1/${allCards.length}`);

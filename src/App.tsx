@@ -57,10 +57,9 @@ class App extends React.Component<Props, State> {
     super(props);
 
     let index = props.firstCardIndex ?? 0;
-    if (index < 0 ) {
+    if (index < 0) {
       index = 0;
-    }
-    else if (index > allCards.length - 1) {
+    } else if (index > allCards.length - 1) {
       index = allCards.length - 1;
     }
 
@@ -163,7 +162,7 @@ class App extends React.Component<Props, State> {
     return (
       <div className="d-flex flex-column h-100">
         <header>
-          <nav className="navbar fixed-top navbar-light bg-light">
+          <nav className="navbar fixed-top navbar-light py-3 bg-light">
             <div className="container-fluid">
               <div
                 className="btn-toolbar justify-content-between w-100"
@@ -203,9 +202,17 @@ class App extends React.Component<Props, State> {
           </nav>
         </header>
 
-        <FlashCard card={this.state.currentCard} />
+        <FlashCard
+          card={this.state.currentCard}
+          onSwipedLeft={() => {
+            this.next();
+          }}
+          onSwipedRight={() => {
+            this.previous();
+          }}
+        />
 
-        <footer className="footer mt-auto py-2 bg-light">
+        <footer className="footer mt-auto py-3 bg-light">
           <div className="container-fluid">
             <div
               className="btn-toolbar justify-content-between w-100"

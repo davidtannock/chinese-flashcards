@@ -1,4 +1,5 @@
 import { render, fireEvent } from "@testing-library/react";
+import { swipeLeft, swipeRight } from "../../test-helpers";
 import FlashCard from "./FlashCard";
 
 const card1 = { i: 1, c: "ch1", f: "你", bp: "nǐ", be: "you (singular)" };
@@ -18,11 +19,11 @@ it("renders a flashcard with front and back text", () => {
 it("flips the card when clicked", () => {
   const { container } = render(<FlashCard card={card1} />);
 
-  let cardEl = container.getElementsByClassName("flashcard").item(0);
+  let cardEl = container.getElementsByClassName("flashcard").item(0)!;
 
   expect(cardEl).not.toHaveClass("flip");
 
-  fireEvent.click(container!.firstChild!);
+  fireEvent.click(container.firstChild!);
 
   expect(cardEl).toHaveClass("flip");
 });
@@ -30,12 +31,31 @@ it("flips the card when clicked", () => {
 it("flips to front when the card changes", () => {
   const { container } = render(<FlashCard card={card1} />);
 
-  let cardEl = container.getElementsByClassName("flashcard").item(0);
+  let cardEl = container.getElementsByClassName("flashcard").item(0)!;
   expect(cardEl).not.toHaveClass("flip");
-  fireEvent.click(container!.firstChild!);
+  fireEvent.click(container.firstChild!);
   expect(cardEl).toHaveClass("flip");
 
   render(<FlashCard card={card2} />, { container });
 
   expect(cardEl).not.toHaveClass("flip");
+});
+
+it("handles swipe events if they're raised", () => {
+  const onSwipedLeft = jest.fn();
+  const onSwipedRight = jest.fn();
+  const { container } = render(
+    <FlashCard
+      card={card1}
+      onSwipedLeft={onSwipedLeft}
+      onSwipedRight={onSwipedRight}
+    />
+  );
+  let cardEl = container.getElementsByClassName("flashcard").item(0)!;
+
+  swipeLeft(cardEl);
+  expect(onSwipedLeft).toHaveBeenCalledTimes(1);
+
+  swipeRight(cardEl);
+  expect(onSwipedRight).toHaveBeenCalledTimes(1);
 });
