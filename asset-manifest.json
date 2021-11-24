@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chinese-flashcards/static/css/main.509d30ec.chunk.css",
-    "main.js": "/chinese-flashcards/static/js/main.582c7c8e.chunk.js",
-    "main.js.map": "/chinese-flashcards/static/js/main.582c7c8e.chunk.js.map",
+    "main.js": "/chinese-flashcards/static/js/main.b6d5298f.chunk.js",
+    "main.js.map": "/chinese-flashcards/static/js/main.b6d5298f.chunk.js.map",
     "runtime-main.js": "/chinese-flashcards/static/js/runtime-main.fe7aa85f.js",
     "runtime-main.js.map": "/chinese-flashcards/static/js/runtime-main.fe7aa85f.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/chinese-flashcards/static/css/2.a75f5a2c.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.a75f5a2c.chunk.css.map": "/chinese-flashcards/static/css/2.a75f5a2c.chunk.css.map",
     "static/css/main.509d30ec.chunk.css.map": "/chinese-flashcards/static/css/main.509d30ec.chunk.css.map",
     "static/js/2.f4f132c3.chunk.js.LICENSE.txt": "/chinese-flashcards/static/js/2.f4f132c3.chunk.js.LICENSE.txt",
-    "static/media/next.a9a84437.svg": "/chinese-flashcards/static/media/next.a9a84437.svg",
+    "static/media/next.25f88238.svg": "/chinese-flashcards/static/media/next.25f88238.svg",
     "static/media/previous.a4e19da2.svg": "/chinese-flashcards/static/media/previous.a4e19da2.svg",
     "static/media/restart.4540b267.svg": "/chinese-flashcards/static/media/restart.4540b267.svg",
     "static/media/shuffle.6749fd27.svg": "/chinese-flashcards/static/media/shuffle.6749fd27.svg"
@@ -24,6 +24,6 @@
     "static/css/2.a75f5a2c.chunk.css",
     "static/js/2.f4f132c3.chunk.js",
     "static/css/main.509d30ec.chunk.css",
-    "static/js/main.582c7c8e.chunk.js"
+    "static/js/main.b6d5298f.chunk.js"
   ]
 }
