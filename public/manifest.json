@@ -1,6 +1,7 @@
 {
   "short_name": "Chinese Flashcards",
   "name": "Discover China Book One Flashcards",
+  "description": "Chinese to English flashcards designed for textbook Discover China Student's Book One",
   "icons": [
     {
       "src": "favicon.ico",
