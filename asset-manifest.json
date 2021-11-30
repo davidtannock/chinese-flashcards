@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chinese-flashcards/static/css/main.509d30ec.chunk.css",
+    "main.css": "/chinese-flashcards/static/css/main.81777c2e.chunk.css",
     "main.js": "/chinese-flashcards/static/js/main.b6d5298f.chunk.js",
     "main.js.map": "/chinese-flashcards/static/js/main.b6d5298f.chunk.js.map",
     "runtime-main.js": "/chinese-flashcards/static/js/runtime-main.fe7aa85f.js",
@@ -12,7 +12,7 @@
     "service-worker.js": "/chinese-flashcards/service-worker.js",
     "service-worker.js.map": "/chinese-flashcards/service-worker.js.map",
     "static/css/2.a75f5a2c.chunk.css.map": "/chinese-flashcards/static/css/2.a75f5a2c.chunk.css.map",
-    "static/css/main.509d30ec.chunk.css.map": "/chinese-flashcards/static/css/main.509d30ec.chunk.css.map",
+    "static/css/main.81777c2e.chunk.css.map": "/chinese-flashcards/static/css/main.81777c2e.chunk.css.map",
     "static/js/2.f4f132c3.chunk.js.LICENSE.txt": "/chinese-flashcards/static/js/2.f4f132c3.chunk.js.LICENSE.txt",
     "static/media/next.25f88238.svg": "/chinese-flashcards/static/media/next.25f88238.svg",
     "static/media/previous.a4e19da2.svg": "/chinese-flashcards/static/media/previous.a4e19da2.svg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.fe7aa85f.js",
     "static/css/2.a75f5a2c.chunk.css",
     "static/js/2.f4f132c3.chunk.js",
-    "static/css/main.509d30ec.chunk.css",
+    "static/css/main.81777c2e.chunk.css",
     "static/js/main.b6d5298f.chunk.js"
   ]
 }
