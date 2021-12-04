@@ -27,7 +27,7 @@ export interface Card {
    * The english text on the back of the card.
    */
   be: string;
-};
+}
 
 /**
  * Sorts an array of cards in ascending order.

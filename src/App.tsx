@@ -2,6 +2,7 @@ import React from "react";
 import ActionButton from "./components/action-button/ActionButton";
 import FlashCard from "./components/flash-card/FlashCard";
 import CardCount from "./components/card-count/CardCount";
+import "./App.css";
 import { ReactComponent as ShuffleLogo } from "./images/shuffle.svg";
 import { ReactComponent as RestartLogo } from "./images/restart.svg";
 import { ReactComponent as PreviousLogo } from "./images/previous.svg";
