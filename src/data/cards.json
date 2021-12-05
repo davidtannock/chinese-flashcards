@@ -1,14 +1,84 @@
 [
-  { "i": 1, "c": "ch1", "f": "你", "bp": "nǐ", "be": "you (singular)" },
-  { "i": 2, "c": "ch1", "f": "好", "bp": "hǎo", "be": "good" },
-  { "i": 3, "c": "ch1", "f": "你好", "bp": "nǐ hǎo", "be": "hello" },
-  { "i": 4, "c": "ch2", "f": "2 你", "bp": "nǐ", "be": "you (singular)" },
-  { "i": 5, "c": "ch2", "f": "2 好", "bp": "hǎo", "be": "good" },
-  { "i": 6, "c": "ch2", "f": "2 你好", "bp": "nǐ hǎo", "be": "hello" },
-  { "i": 7, "c": "ch3", "f": "3 你", "bp": "nǐ", "be": "you (singular)" },
-  { "i": 8, "c": "ch3", "f": "3 好", "bp": "hǎo", "be": "good" },
-  { "i": 9, "c": "ch3", "f": "3 你好", "bp": "nǐ hǎo", "be": "hello" },
-  { "i": 10, "c": "ch4", "f": "4 你", "bp": "nǐ", "be": "you (singular)" },
-  { "i": 11, "c": "ch4", "f": "4 好", "bp": "hǎo", "be": "good" },
-  { "i": 12, "c": "ch4", "f": "4 你好", "bp": "nǐ hǎo", "be": "hello" }
+{ "i": 1, "c": "ch1", "f": "你好", "bp": "nǐhǎo", "be": "hello" }
+,{ "i": 2, "c": "ch1", "f": "你", "bp": "nǐ", "be": "you (singular)" }
+,{ "i": 3, "c": "ch1", "f": "好", "bp": "hǎo", "be": "good" }
+,{ "i": 4, "c": "ch1", "f": "请问", "bp": "qǐngwèn", "be": "may i ask / excuse me" }
+,{ "i": 5, "c": "ch1", "f": "请", "bp": "qǐng", "be": "please / invite" }
+,{ "i": 6, "c": "ch1", "f": "问", "bp": "wèn", "be": "ask" }
+,{ "i": 7, "c": "ch1", "f": "叫", "bp": "jiào", "be": "be called" }
+,{ "i": 8, "c": "ch1", "f": "什么", "bp": "shénme", "be": "what" }
+,{ "i": 9, "c": "ch1", "f": "姓名", "bp": "xìngmíng", "be": "name" }
+,{ "i": 10, "c": "ch1", "f": "我", "bp": "wǒ", "be": "I / me" }
+,{ "i": 11, "c": "ch1", "f": "呢", "bp": "ne", "be": "used to ask questions" }
+,{ "i": 12, "c": "ch1", "f": "认识", "bp": "rènshi", "be": "know / get to know" }
+,{ "i": 13, "c": "ch1", "f": "很", "bp": "hěn", "be": "very" }
+,{ "i": 14, "c": "ch1", "f": "高兴", "bp": "gāoxìng", "be": "glad / happy" }
+,{ "i": 15, "c": "ch1", "f": "小姐", "bp": "xiǎojiě", "be": "Miss / lady" }
+,{ "i": 16, "c": "ch1", "f": "对不起", "bp": "duìbùqǐ", "be": "sorry" }
+,{ "i": 17, "c": "ch1", "f": "姓", "bp": "xìng", "be": "surname / family name" }
+,{ "i": 18, "c": "ch1", "f": "中文", "bp": "zhōngwén", "be": "Chinese" }
+,{ "i": 19, "c": "ch1", "f": "是", "bp": "shì", "be": "be" }
+,{ "i": 20, "c": "ch1", "f": "你们", "bp": "nǐmen", "be": "you (plural)" }
+,{ "i": 21, "c": "ch1", "f": "大家", "bp": "dàjiā", "be": "everybody / everyone" }
+,{ "i": 22, "c": "ch1", "f": "他", "bp": "tā", "be": "he / him" }
+,{ "i": 23, "c": "ch1", "f": "她", "bp": "tā", "be": "she / her" }
+,{ "i": 24, "c": "ch1", "f": "先生", "bp": "xiānsheng", "be": "Mr" }
+,{ "i": 25, "c": "ch1", "f": "女士", "bp": "nǚshì", "be": "Ms" }
+,{ "i": 26, "c": "ch1", "f": "太太", "bp": "tàitai", "be": "Mrs" }
+,{ "i": 27, "c": "ch1", "f": "夫人", "bp": "fūren", "be": "Mrs / lady" }
+,{ "i": 28, "c": "ch1", "f": "同学", "bp": "tóngxué", "be": "schoolmate" }
+,{ "i": 29, "c": "ch1", "f": "老师", "bp": "lǎoshī", "be": "teacher" }
+,{ "i": 30, "c": "ch1", "f": "早上好", "bp": "zǎoshang hǎo", "be": "good morning" }
+,{ "i": 31, "c": "ch1", "f": "晚上好", "bp": "wǎnshàng hǎo", "be": "good evening" }
+,{ "i": 32, "c": "ch1", "f": "好久不见", "bp": "hǎojiǔ bùjiàn", "be": "long time no see" }
+,{ "i": 33, "c": "ch1", "f": "早晨", "bp": "zǎochén", "be": "morning 0500 - 0800" }
+,{ "i": 34, "c": "ch1", "f": "早上", "bp": "zǎoshang", "be": "morning 0500 - 0800" }
+,{ "i": 35, "c": "ch1", "f": "上午", "bp": "shàngwǔ", "be": "morning 0800 - 1100" }
+,{ "i": 36, "c": "ch1", "f": "中午", "bp": "zhōngwǔ", "be": "noon 1100 - 1300" }
+,{ "i": 37, "c": "ch1", "f": "下午", "bp": "xiàwǔ", "be": "afternoon 1300 - 1800" }
+,{ "i": 38, "c": "ch1", "f": "晚上", "bp": "wǎnshàng", "be": "night 1800 - 2400" }
+,{ "i": 39, "c": "ch1", "f": "凌晨", "bp": "língchén", "be": "early morning 2400 - 0500" }
+,{ "i": 40, "c": "ch1", "f": "谢谢", "bp": "xièxie", "be": "thanks (thank you)" }
+,{ "i": 41, "c": "ch1", "f": "不客气", "bp": "bù kèqi", "be": "you're welcome" }
+,{ "i": 42, "c": "ch1", "f": "不用谢", "bp": "bùyòngxiè", "be": "you're welcome" }
+,{ "i": 43, "c": "ch1", "f": "没关系", "bp": "méiguānxì", "be": "it's ok (that's ok)" }
+,{ "i": 44, "c": "ch1", "f": "对不起", "bp": "duìbùqǐ", "be": "sorry" }
+,{ "i": 45, "c": "ch1", "f": "再见", "bp": "zàijiàn", "be": "goodbye" }
+,{ "i": 46, "c": "ch1", "f": "我很高兴", "bp": "wǒ hěn gāoxìng", "be": "i am very happy" }
+,{ "i": 47, "c": "ch1", "f": "我不高兴", "bp": "wǒ bù gāoxìng", "be": "i am not happy" }
+,{ "i": 48, "c": "ch1", "f": "拼音", "bp": "pīnyīn", "be": "pinyin" }
+,{ "i": 49, "c": "ch1", "f": "也", "bp": "yě", "be": "too / also / as well" }
+,{ "i": 50, "c": "ch2", "f": "日本", "bp": "rìběn", "be": "Japan" }
+,{ "i": 51, "c": "ch2", "f": "人", "bp": "rén", "be": "person" }
+,{ "i": 52, "c": "ch2", "f": "吗", "bp": "mǎ", "be": "used to ask yes/no questions" }
+,{ "i": 53, "c": "ch2", "f": "不", "bp": "bù", "be": "no / not" }
+,{ "i": 54, "c": "ch2", "f": "哪里", "bp": "nǎlǐ", "be": "where" }
+,{ "i": 55, "c": "ch2", "f": "哪", "bp": "nǎ", "be": "which" }
+,{ "i": 56, "c": "ch2", "f": "中国", "bp": "zhōngguó", "be": "China" }
+,{ "i": 57, "c": "ch2", "f": "国", "bp": "guó", "be": "country" }
+,{ "i": 58, "c": "ch2", "f": "英国", "bp": "yīngguó", "be": "UK" }
+,{ "i": 59, "c": "ch2", "f": "住", "bp": "zhù", "be": "live" }
+,{ "i": 60, "c": "ch2", "f": "在", "bp": "zài", "be": "at / in" }
+,{ "i": 61, "c": "ch2", "f": "伦敦", "bp": "lúndūn", "be": "London" }
+,{ "i": 62, "c": "ch2", "f": "北京", "bp": "běijīng", "be": "Beijing" }
+,{ "i": 63, "c": "ch2", "f": "他们", "bp": "tāmen", "be": "they / them" }
+,{ "i": 64, "c": "ch2", "f": "好莱坞", "bp": "hǎoláiwù", "be": "Hollywood" }
+,{ "i": 65, "c": "ch2", "f": "明星", "bp": "míngxīng", "be": "celebrity / star" }
+,{ "i": 66, "c": "ch2", "f": "但是", "bp": "dànshì", "be": "but" }
+,{ "i": 67, "c": "ch2", "f": "美国", "bp": "měiguó", "be": "USA" }
+,{ "i": 68, "c": "ch2", "f": "加拿大", "bp": "jiānádà", "be": "Canada" }
+,{ "i": 69, "c": "ch2", "f": "南非", "bp": "nánfēi", "be": "South Africa" }
+,{ "i": 70, "c": "ch2", "f": "新西兰", "bp": "xīnxīlán", "be": "New Zealand" }
+,{ "i": 71, "c": "ch2", "f": "澳大利亚", "bp": "àodàlìyà", "be": "Australia" }
+,{ "i": 72, "c": "ch2", "f": "悉尼", "bp": "xīní", "be": "Sydney" }
+,{ "i": 73, "c": "ch2", "f": "墨尔本", "bp": "mòěrběn", "be": "Melbourne" }
+,{ "i": 74, "c": "ch2", "f": "韩国", "bp": "hánguó", "be": "Korea" }
+,{ "i": 75, "c": "ch2", "f": "法国", "bp": "fǎguó", "be": "France" }
+,{ "i": 76, "c": "ch2", "f": "墨西哥", "bp": "mòxīgē", "be": "Mexico" }
+,{ "i": 77, "c": "ch2", "f": "肯尼亚", "bp": "kěnníyà", "be": "Kenya" }
+,{ "i": 78, "c": "ch2", "f": "泰国", "bp": "tàiguó", "be": "Thailand" }
+,{ "i": 79, "c": "ch2", "f": "埃及", "bp": "āijí", "be": "Egypt" }
+,{ "i": 80, "c": "ch2", "f": "新加坡", "bp": "xīnjiāpō", "be": "Singapore" }
+,{ "i": 81, "c": "ch2", "f": "德国", "bp": "déguó", "be": "Germany" }
+,{ "i": 82, "c": "ch2", "f": "印度", "bp": "yìndù", "be": "India" }
 ]

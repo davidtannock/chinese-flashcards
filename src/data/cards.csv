@@ -1,0 +1,83 @@
+i,c,english1,f,bp,english2,be
+1,ch1,hello,你好,nǐhǎo,,hello
+2,ch1,you,你,nǐ,(singular),you (singular)
+3,ch1,good,好,hǎo,,good
+4,ch1,may i ask,请问,qǐngwèn,/ excuse me,may i ask / excuse me
+5,ch1,please,请,qǐng,/ invite,please / invite
+6,ch1,ask,问,wèn,,ask
+7,ch1,be called,叫,jiào,,be called
+8,ch1,what,什么,shénme,,what
+9,ch1,name,姓名,xìngmíng,,name
+10,ch1,I,我,wǒ,/ me,I / me
+11,ch1,,呢,ne,used to ask questions,used to ask questions
+12,ch1,know,认识,rènshi,/ get to know,know / get to know
+13,ch1,very,很,hěn,,very
+14,ch1,glad,高兴,gāoxìng,/ happy,glad / happy
+15,ch1,Miss,小姐,xiǎojiě,/ lady,Miss / lady
+16,ch1,sorry,对不起,duìbùqǐ,,sorry
+17,ch1,surname,姓,xìng,/ family name,surname / family name
+18,ch1,Chinese,中文,zhōngwén,,Chinese
+19,ch1,be,是,shì,,be
+20,ch1,you,你们,nǐmen,(plural),you (plural)
+21,ch1,everybody,大家,dàjiā,/ everyone,everybody / everyone
+22,ch1,he,他,tā,/ him,he / him
+23,ch1,she,她,tā,/ her,she / her
+24,ch1,Mr,先生,xiānsheng,,Mr
+25,ch1,Ms,女士,nǚshì,,Ms
+26,ch1,Mrs,太太,tàitai,,Mrs
+27,ch1,Mrs,夫人,fūren,/ lady,Mrs / lady
+28,ch1,schoolmate,同学,tóngxué,,schoolmate
+29,ch1,teacher,老师,lǎoshī,,teacher
+30,ch1,good morning,早上好,zǎoshang hǎo,,good morning
+31,ch1,good evening,晚上好,wǎnshàng hǎo,,good evening
+32,ch1,long time no see,好久不见,hǎojiǔ bùjiàn,,long time no see
+33,ch1,morning,早晨,zǎochén,0500 - 0800,morning 0500 - 0800
+34,ch1,morning,早上,zǎoshang,0500 - 0800,morning 0500 - 0800
+35,ch1,morning,上午,shàngwǔ,0800 - 1100,morning 0800 - 1100
+36,ch1,noon,中午,zhōngwǔ,1100 - 1300,noon 1100 - 1300
+37,ch1,afternoon,下午,xiàwǔ,1300 - 1800,afternoon 1300 - 1800
+38,ch1,night,晚上,wǎnshàng,1800 - 2400,night 1800 - 2400
+39,ch1,early morning,凌晨,língchén,2400 - 0500,early morning 2400 - 0500
+40,ch1,thanks,谢谢,xièxie,(thank you),thanks (thank you)
+41,ch1,you're welcome,不客气,bù kèqi,,you're welcome
+42,ch1,you're welcome,不用谢,bùyòngxiè,,you're welcome
+43,ch1,it's ok,没关系,méiguānxì,(that's ok),it's ok (that's ok)
+44,ch1,sorry,对不起,duìbùqǐ,,sorry
+45,ch1,goodbye,再见,zàijiàn,,goodbye
+46,ch1,i am very happy,我很高兴,wǒ hěn gāoxìng,,i am very happy
+47,ch1,i am not happy,我不高兴,wǒ bù gāoxìng,,i am not happy
+48,ch1,pinyin,拼音,pīnyīn,,pinyin
+49,ch1,too,也,yě,/ also / as well,too / also / as well
+50,ch2,Japan,日本,rìběn,,Japan
+51,ch2,person,人,rén,,person
+52,ch2,,吗,mǎ,used to ask yes/no questions,used to ask yes/no questions
+53,ch2,no,不,bù,/ not,no / not
+54,ch2,where,哪里,nǎlǐ,,where
+55,ch2,which,哪,nǎ,,which
+56,ch2,China,中国,zhōngguó,,China
+57,ch2,country,国,guó,,country
+58,ch2,UK,英国,yīngguó,,UK
+59,ch2,live,住,zhù,,live
+60,ch2,at,在,zài,/ in,at / in
+61,ch2,London,伦敦,lúndūn,,London
+62,ch2,Beijing,北京,běijīng,,Beijing
+63,ch2,they,他们,tāmen,/ them,they / them
+64,ch2,Hollywood,好莱坞,hǎoláiwù,,Hollywood
+65,ch2,celebrity,明星,míngxīng,/ star,celebrity / star
+66,ch2,but,但是,dànshì,,but
+67,ch2,USA,美国,měiguó,,USA
+68,ch2,Canada,加拿大,jiānádà,,Canada
+69,ch2,South Africa,南非,nánfēi,,South Africa
+70,ch2,New Zealand,新西兰,xīnxīlán,,New Zealand
+71,ch2,Australia,澳大利亚,àodàlìyà,,Australia
+72,ch2,Sydney,悉尼,xīní,,Sydney
+73,ch2,Melbourne,墨尔本,mòěrběn,,Melbourne
+74,ch2,Korea,韩国,hánguó,,Korea
+75,ch2,France,法国,fǎguó,,France
+76,ch2,Mexico,墨西哥,mòxīgē,,Mexico
+77,ch2,Kenya,肯尼亚,kěnníyà,,Kenya
+78,ch2,Thailand,泰国,tàiguó,,Thailand
+79,ch2,Egypt,埃及,āijí,,Egypt
+80,ch2,Singapore,新加坡,xīnjiāpō,,Singapore
+81,ch2,Germany,德国,déguó,,Germany
+82,ch2,India,印度,yìndù,,India

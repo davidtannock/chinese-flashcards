@@ -180,8 +180,6 @@ class App extends React.Component<Props, State> {
                     <option value={Constants.CATEGORY_ALL}>All</option>
                     <option value="ch1">Ch1</option>
                     <option value="ch2">Ch2</option>
-                    <option value="ch3">Ch3</option>
-                    <option value="ch4">Ch4</option>
                   </select>
                 </div>
                 <ActionButton
