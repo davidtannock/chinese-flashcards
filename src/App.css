@@ -4,3 +4,8 @@ footer {
   right: 0;
   bottom: 0;
 }
+
+select:focus {
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+}
