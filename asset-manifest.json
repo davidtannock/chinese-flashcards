@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chinese-flashcards/static/css/main.6fe74d81.chunk.css",
-    "main.js": "/chinese-flashcards/static/js/main.e9853367.chunk.js",
-    "main.js.map": "/chinese-flashcards/static/js/main.e9853367.chunk.js.map",
+    "main.js": "/chinese-flashcards/static/js/main.8fe9f0a4.chunk.js",
+    "main.js.map": "/chinese-flashcards/static/js/main.8fe9f0a4.chunk.js.map",
     "runtime-main.js": "/chinese-flashcards/static/js/runtime-main.fe7aa85f.js",
     "runtime-main.js.map": "/chinese-flashcards/static/js/runtime-main.fe7aa85f.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/chinese-flashcards/static/css/2.a75f5a2c.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.a75f5a2c.chunk.css",
     "static/js/2.f4f132c3.chunk.js",
     "static/css/main.6fe74d81.chunk.css",
-    "static/js/main.e9853367.chunk.js"
+    "static/js/main.8fe9f0a4.chunk.js"
   ]
 }
