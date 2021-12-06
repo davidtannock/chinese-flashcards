@@ -42,43 +42,42 @@
 ,{ "i": 41, "c": "ch1", "f": "不客气", "bp": "bù kèqi", "be": "you're welcome" }
 ,{ "i": 42, "c": "ch1", "f": "不用谢", "bp": "bùyòngxiè", "be": "you're welcome" }
 ,{ "i": 43, "c": "ch1", "f": "没关系", "bp": "méiguānxì", "be": "it's ok (that's ok)" }
-,{ "i": 44, "c": "ch1", "f": "对不起", "bp": "duìbùqǐ", "be": "sorry" }
-,{ "i": 45, "c": "ch1", "f": "再见", "bp": "zàijiàn", "be": "goodbye" }
-,{ "i": 46, "c": "ch1", "f": "我很高兴", "bp": "wǒ hěn gāoxìng", "be": "i am very happy" }
-,{ "i": 47, "c": "ch1", "f": "我不高兴", "bp": "wǒ bù gāoxìng", "be": "i am not happy" }
-,{ "i": 48, "c": "ch1", "f": "拼音", "bp": "pīnyīn", "be": "pinyin" }
-,{ "i": 49, "c": "ch1", "f": "也", "bp": "yě", "be": "too / also / as well" }
-,{ "i": 50, "c": "ch2", "f": "日本", "bp": "rìběn", "be": "Japan" }
-,{ "i": 51, "c": "ch2", "f": "人", "bp": "rén", "be": "person" }
-,{ "i": 52, "c": "ch2", "f": "吗", "bp": "mǎ", "be": "used to ask yes/no questions" }
-,{ "i": 53, "c": "ch2", "f": "不", "bp": "bù", "be": "no / not" }
-,{ "i": 54, "c": "ch2", "f": "哪里", "bp": "nǎlǐ", "be": "where" }
-,{ "i": 55, "c": "ch2", "f": "哪", "bp": "nǎ", "be": "which" }
-,{ "i": 56, "c": "ch2", "f": "中国", "bp": "zhōngguó", "be": "China" }
-,{ "i": 57, "c": "ch2", "f": "国", "bp": "guó", "be": "country" }
-,{ "i": 58, "c": "ch2", "f": "英国", "bp": "yīngguó", "be": "UK" }
-,{ "i": 59, "c": "ch2", "f": "住", "bp": "zhù", "be": "live" }
-,{ "i": 60, "c": "ch2", "f": "在", "bp": "zài", "be": "at / in" }
-,{ "i": 61, "c": "ch2", "f": "伦敦", "bp": "lúndūn", "be": "London" }
-,{ "i": 62, "c": "ch2", "f": "北京", "bp": "běijīng", "be": "Beijing" }
-,{ "i": 63, "c": "ch2", "f": "他们", "bp": "tāmen", "be": "they / them" }
-,{ "i": 64, "c": "ch2", "f": "好莱坞", "bp": "hǎoláiwù", "be": "Hollywood" }
-,{ "i": 65, "c": "ch2", "f": "明星", "bp": "míngxīng", "be": "celebrity / star" }
-,{ "i": 66, "c": "ch2", "f": "但是", "bp": "dànshì", "be": "but" }
-,{ "i": 67, "c": "ch2", "f": "美国", "bp": "měiguó", "be": "USA" }
-,{ "i": 68, "c": "ch2", "f": "加拿大", "bp": "jiānádà", "be": "Canada" }
-,{ "i": 69, "c": "ch2", "f": "南非", "bp": "nánfēi", "be": "South Africa" }
-,{ "i": 70, "c": "ch2", "f": "新西兰", "bp": "xīnxīlán", "be": "New Zealand" }
-,{ "i": 71, "c": "ch2", "f": "澳大利亚", "bp": "àodàlìyà", "be": "Australia" }
-,{ "i": 72, "c": "ch2", "f": "悉尼", "bp": "xīní", "be": "Sydney" }
-,{ "i": 73, "c": "ch2", "f": "墨尔本", "bp": "mòěrběn", "be": "Melbourne" }
-,{ "i": 74, "c": "ch2", "f": "韩国", "bp": "hánguó", "be": "Korea" }
-,{ "i": 75, "c": "ch2", "f": "法国", "bp": "fǎguó", "be": "France" }
-,{ "i": 76, "c": "ch2", "f": "墨西哥", "bp": "mòxīgē", "be": "Mexico" }
-,{ "i": 77, "c": "ch2", "f": "肯尼亚", "bp": "kěnníyà", "be": "Kenya" }
-,{ "i": 78, "c": "ch2", "f": "泰国", "bp": "tàiguó", "be": "Thailand" }
-,{ "i": 79, "c": "ch2", "f": "埃及", "bp": "āijí", "be": "Egypt" }
-,{ "i": 80, "c": "ch2", "f": "新加坡", "bp": "xīnjiāpō", "be": "Singapore" }
-,{ "i": 81, "c": "ch2", "f": "德国", "bp": "déguó", "be": "Germany" }
-,{ "i": 82, "c": "ch2", "f": "印度", "bp": "yìndù", "be": "India" }
+,{ "i": 44, "c": "ch1", "f": "再见", "bp": "zàijiàn", "be": "goodbye" }
+,{ "i": 45, "c": "ch1", "f": "我很高兴", "bp": "wǒ hěn gāoxìng", "be": "i am very happy" }
+,{ "i": 46, "c": "ch1", "f": "我不高兴", "bp": "wǒ bù gāoxìng", "be": "i am not happy" }
+,{ "i": 47, "c": "ch1", "f": "拼音", "bp": "pīnyīn", "be": "pinyin" }
+,{ "i": 48, "c": "ch1", "f": "也", "bp": "yě", "be": "too / also / as well" }
+,{ "i": 49, "c": "ch2", "f": "日本", "bp": "rìběn", "be": "Japan" }
+,{ "i": 50, "c": "ch2", "f": "人", "bp": "rén", "be": "person" }
+,{ "i": 51, "c": "ch2", "f": "吗", "bp": "mǎ", "be": "used to ask yes/no questions" }
+,{ "i": 52, "c": "ch2", "f": "不", "bp": "bù", "be": "no / not" }
+,{ "i": 53, "c": "ch2", "f": "哪里", "bp": "nǎlǐ", "be": "where" }
+,{ "i": 54, "c": "ch2", "f": "哪", "bp": "nǎ", "be": "which" }
+,{ "i": 55, "c": "ch2", "f": "中国", "bp": "zhōngguó", "be": "China" }
+,{ "i": 56, "c": "ch2", "f": "国", "bp": "guó", "be": "country" }
+,{ "i": 57, "c": "ch2", "f": "英国", "bp": "yīngguó", "be": "UK" }
+,{ "i": 58, "c": "ch2", "f": "住", "bp": "zhù", "be": "live" }
+,{ "i": 59, "c": "ch2", "f": "在", "bp": "zài", "be": "at / in" }
+,{ "i": 60, "c": "ch2", "f": "伦敦", "bp": "lúndūn", "be": "London" }
+,{ "i": 61, "c": "ch2", "f": "北京", "bp": "běijīng", "be": "Beijing" }
+,{ "i": 62, "c": "ch2", "f": "他们", "bp": "tāmen", "be": "they / them" }
+,{ "i": 63, "c": "ch2", "f": "好莱坞", "bp": "hǎoláiwù", "be": "Hollywood" }
+,{ "i": 64, "c": "ch2", "f": "明星", "bp": "míngxīng", "be": "celebrity / star" }
+,{ "i": 65, "c": "ch2", "f": "但是", "bp": "dànshì", "be": "but" }
+,{ "i": 66, "c": "ch2", "f": "美国", "bp": "měiguó", "be": "USA" }
+,{ "i": 67, "c": "ch2", "f": "加拿大", "bp": "jiānádà", "be": "Canada" }
+,{ "i": 68, "c": "ch2", "f": "南非", "bp": "nánfēi", "be": "South Africa" }
+,{ "i": 69, "c": "ch2", "f": "新西兰", "bp": "xīnxīlán", "be": "New Zealand" }
+,{ "i": 70, "c": "ch2", "f": "澳大利亚", "bp": "àodàlìyà", "be": "Australia" }
+,{ "i": 71, "c": "ch2", "f": "悉尼", "bp": "xīní", "be": "Sydney" }
+,{ "i": 72, "c": "ch2", "f": "墨尔本", "bp": "mòěrběn", "be": "Melbourne" }
+,{ "i": 73, "c": "ch2", "f": "韩国", "bp": "hánguó", "be": "Korea" }
+,{ "i": 74, "c": "ch2", "f": "法国", "bp": "fǎguó", "be": "France" }
+,{ "i": 75, "c": "ch2", "f": "墨西哥", "bp": "mòxīgē", "be": "Mexico" }
+,{ "i": 76, "c": "ch2", "f": "肯尼亚", "bp": "kěnníyà", "be": "Kenya" }
+,{ "i": 77, "c": "ch2", "f": "泰国", "bp": "tàiguó", "be": "Thailand" }
+,{ "i": 78, "c": "ch2", "f": "埃及", "bp": "āijí", "be": "Egypt" }
+,{ "i": 79, "c": "ch2", "f": "新加坡", "bp": "xīnjiāpō", "be": "Singapore" }
+,{ "i": 80, "c": "ch2", "f": "德国", "bp": "déguó", "be": "Germany" }
+,{ "i": 81, "c": "ch2", "f": "印度", "bp": "yìndù", "be": "India" }
 ]

@@ -42,42 +42,41 @@ i,c,english1,f,bp,english2,be
 41,ch1,you're welcome,不客气,bù kèqi,,you're welcome
 42,ch1,you're welcome,不用谢,bùyòngxiè,,you're welcome
 43,ch1,it's ok,没关系,méiguānxì,(that's ok),it's ok (that's ok)
-44,ch1,sorry,对不起,duìbùqǐ,,sorry
-45,ch1,goodbye,再见,zàijiàn,,goodbye
-46,ch1,i am very happy,我很高兴,wǒ hěn gāoxìng,,i am very happy
-47,ch1,i am not happy,我不高兴,wǒ bù gāoxìng,,i am not happy
-48,ch1,pinyin,拼音,pīnyīn,,pinyin
-49,ch1,too,也,yě,/ also / as well,too / also / as well
-50,ch2,Japan,日本,rìběn,,Japan
-51,ch2,person,人,rén,,person
-52,ch2,,吗,mǎ,used to ask yes/no questions,used to ask yes/no questions
-53,ch2,no,不,bù,/ not,no / not
-54,ch2,where,哪里,nǎlǐ,,where
-55,ch2,which,哪,nǎ,,which
-56,ch2,China,中国,zhōngguó,,China
-57,ch2,country,国,guó,,country
-58,ch2,UK,英国,yīngguó,,UK
-59,ch2,live,住,zhù,,live
-60,ch2,at,在,zài,/ in,at / in
-61,ch2,London,伦敦,lúndūn,,London
-62,ch2,Beijing,北京,běijīng,,Beijing
-63,ch2,they,他们,tāmen,/ them,they / them
-64,ch2,Hollywood,好莱坞,hǎoláiwù,,Hollywood
-65,ch2,celebrity,明星,míngxīng,/ star,celebrity / star
-66,ch2,but,但是,dànshì,,but
-67,ch2,USA,美国,měiguó,,USA
-68,ch2,Canada,加拿大,jiānádà,,Canada
-69,ch2,South Africa,南非,nánfēi,,South Africa
-70,ch2,New Zealand,新西兰,xīnxīlán,,New Zealand
-71,ch2,Australia,澳大利亚,àodàlìyà,,Australia
-72,ch2,Sydney,悉尼,xīní,,Sydney
-73,ch2,Melbourne,墨尔本,mòěrběn,,Melbourne
-74,ch2,Korea,韩国,hánguó,,Korea
-75,ch2,France,法国,fǎguó,,France
-76,ch2,Mexico,墨西哥,mòxīgē,,Mexico
-77,ch2,Kenya,肯尼亚,kěnníyà,,Kenya
-78,ch2,Thailand,泰国,tàiguó,,Thailand
-79,ch2,Egypt,埃及,āijí,,Egypt
-80,ch2,Singapore,新加坡,xīnjiāpō,,Singapore
-81,ch2,Germany,德国,déguó,,Germany
-82,ch2,India,印度,yìndù,,India
+44,ch1,goodbye,再见,zàijiàn,,goodbye
+45,ch1,i am very happy,我很高兴,wǒ hěn gāoxìng,,i am very happy
+46,ch1,i am not happy,我不高兴,wǒ bù gāoxìng,,i am not happy
+47,ch1,pinyin,拼音,pīnyīn,,pinyin
+48,ch1,too,也,yě,/ also / as well,too / also / as well
+49,ch2,Japan,日本,rìběn,,Japan
+50,ch2,person,人,rén,,person
+51,ch2,,吗,mǎ,used to ask yes/no questions,used to ask yes/no questions
+52,ch2,no,不,bù,/ not,no / not
+53,ch2,where,哪里,nǎlǐ,,where
+54,ch2,which,哪,nǎ,,which
+55,ch2,China,中国,zhōngguó,,China
+56,ch2,country,国,guó,,country
+57,ch2,UK,英国,yīngguó,,UK
+58,ch2,live,住,zhù,,live
+59,ch2,at,在,zài,/ in,at / in
+60,ch2,London,伦敦,lúndūn,,London
+61,ch2,Beijing,北京,běijīng,,Beijing
+62,ch2,they,他们,tāmen,/ them,they / them
+63,ch2,Hollywood,好莱坞,hǎoláiwù,,Hollywood
+64,ch2,celebrity,明星,míngxīng,/ star,celebrity / star
+65,ch2,but,但是,dànshì,,but
+66,ch2,USA,美国,měiguó,,USA
+67,ch2,Canada,加拿大,jiānádà,,Canada
+68,ch2,South Africa,南非,nánfēi,,South Africa
+69,ch2,New Zealand,新西兰,xīnxīlán,,New Zealand
+70,ch2,Australia,澳大利亚,àodàlìyà,,Australia
+71,ch2,Sydney,悉尼,xīní,,Sydney
+72,ch2,Melbourne,墨尔本,mòěrběn,,Melbourne
+73,ch2,Korea,韩国,hánguó,,Korea
+74,ch2,France,法国,fǎguó,,France
+75,ch2,Mexico,墨西哥,mòxīgē,,Mexico
+76,ch2,Kenya,肯尼亚,kěnníyà,,Kenya
+77,ch2,Thailand,泰国,tàiguó,,Thailand
+78,ch2,Egypt,埃及,āijí,,Egypt
+79,ch2,Singapore,新加坡,xīnjiāpō,,Singapore
+80,ch2,Germany,德国,déguó,,Germany
+81,ch2,India,印度,yìndù,,India
