@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/chinese-flashcards/static/css/main.6fe74d81.chunk.css",
-    "main.js": "/chinese-flashcards/static/js/main.8fe9f0a4.chunk.js",
-    "main.js.map": "/chinese-flashcards/static/js/main.8fe9f0a4.chunk.js.map",
+    "main.css": "/chinese-flashcards/static/css/main.80e5e882.chunk.css",
+    "main.js": "/chinese-flashcards/static/js/main.2aea2cec.chunk.js",
+    "main.js.map": "/chinese-flashcards/static/js/main.2aea2cec.chunk.js.map",
     "runtime-main.js": "/chinese-flashcards/static/js/runtime-main.fe7aa85f.js",
     "runtime-main.js.map": "/chinese-flashcards/static/js/runtime-main.fe7aa85f.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/chinese-flashcards/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.f4f132c3.chunk.js": "/chinese-flashcards/static/js/2.f4f132c3.chunk.js",
-    "static/js/2.f4f132c3.chunk.js.map": "/chinese-flashcards/static/js/2.f4f132c3.chunk.js.map",
+    "static/js/2.f7df90b8.chunk.js": "/chinese-flashcards/static/js/2.f7df90b8.chunk.js",
+    "static/js/2.f7df90b8.chunk.js.map": "/chinese-flashcards/static/js/2.f7df90b8.chunk.js.map",
     "index.html": "/chinese-flashcards/index.html",
     "service-worker.js": "/chinese-flashcards/service-worker.js",
     "service-worker.js.map": "/chinese-flashcards/service-worker.js.map",
     "static/css/2.a75f5a2c.chunk.css.map": "/chinese-flashcards/static/css/2.a75f5a2c.chunk.css.map",
-    "static/css/main.6fe74d81.chunk.css.map": "/chinese-flashcards/static/css/main.6fe74d81.chunk.css.map",
-    "static/js/2.f4f132c3.chunk.js.LICENSE.txt": "/chinese-flashcards/static/js/2.f4f132c3.chunk.js.LICENSE.txt",
+    "static/css/main.80e5e882.chunk.css.map": "/chinese-flashcards/static/css/main.80e5e882.chunk.css.map",
+    "static/js/2.f7df90b8.chunk.js.LICENSE.txt": "/chinese-flashcards/static/js/2.f7df90b8.chunk.js.LICENSE.txt",
     "static/media/next.25f88238.svg": "/chinese-flashcards/static/media/next.25f88238.svg",
     "static/media/previous.a4e19da2.svg": "/chinese-flashcards/static/media/previous.a4e19da2.svg",
     "static/media/restart.4540b267.svg": "/chinese-flashcards/static/media/restart.4540b267.svg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.fe7aa85f.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.f4f132c3.chunk.js",
-    "static/css/main.6fe74d81.chunk.css",
-    "static/js/main.8fe9f0a4.chunk.js"
+    "static/js/2.f7df90b8.chunk.js",
+    "static/css/main.80e5e882.chunk.css",
+    "static/js/main.2aea2cec.chunk.js"
   ]
 }
