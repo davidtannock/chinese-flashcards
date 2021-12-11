@@ -1,0 +1,17 @@
+.notifyupdate {
+  cursor: pointer;
+  position: fixed;
+  width: 100vw;
+  top: 80px;
+  display: none;
+}
+
+.notifyupdate.visible {
+  display: block;
+}
+
+.notifyupdate div.alert {
+  margin: 0 auto;
+  max-width: 330px;
+  text-align: center;
+}

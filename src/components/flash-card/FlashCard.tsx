@@ -71,9 +71,9 @@ class FlashCard extends React.Component<Props, State> {
    * Flip the card.
    */
   flip() {
-    this.setState({
-      flip: !this.state.flip,
-    });
+    this.setState((state) => ({
+      flip: !state.flip,
+    }));
   }
 
   /**

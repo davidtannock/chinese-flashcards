@@ -1,7 +1,9 @@
 import React from "react";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import ActionButton from "./components/action-button/ActionButton";
 import FlashCard from "./components/flash-card/FlashCard";
 import CardCount from "./components/card-count/CardCount";
+import NotifyUpdate from "./components/notify-update/NotifyUpdate";
 import "./App.css";
 import { ReactComponent as ShuffleLogo } from "./images/shuffle.svg";
 import { ReactComponent as RestartLogo } from "./images/restart.svg";
@@ -43,6 +45,11 @@ type State = {
    * Whether or not the cards have been shuffled.
    */
   cardsAreShuffled: boolean;
+
+  /**
+   * Whether or not an application update is available.
+   */
+  updateAvailable: boolean;
 };
 
 /**
@@ -70,8 +77,28 @@ class App extends React.Component<Props, State> {
       cards: allCards,
       currentCard: allCards[index],
       cardsAreShuffled: false,
+      updateAvailable: false,
     };
   }
+
+  /**
+   * Register the service worker and look out for updates to the application.
+   */
+  componentDidMount() {
+    serviceWorkerRegistration.register({
+      onUpdate: this.onServiceWorkerUpdate,
+    });
+  }
+
+  /**
+   * We have an updated service worker.
+   */
+  onServiceWorkerUpdate = (registration: ServiceWorkerRegistration) => {
+    registration.waiting?.postMessage({ type: "SKIP_WAITING" });
+    this.setState({
+      updateAvailable: true,
+    });
+  };
 
   /**
    * Return to the 1st card in the selected category,
@@ -83,7 +110,6 @@ class App extends React.Component<Props, State> {
       : this.state.cards;
     this.setState({
       index: 0,
-      category: this.state.category,
       cards: cards,
       currentCard: cards[0],
       cardsAreShuffled: false,
@@ -98,7 +124,6 @@ class App extends React.Component<Props, State> {
     let cards = shuffleCards(this.state.cards);
     this.setState({
       index: 0,
-      category: this.state.category,
       cards: cards,
       currentCard: cards[0],
       cardsAreShuffled: true,
@@ -113,13 +138,10 @@ class App extends React.Component<Props, State> {
       return;
     }
     let index = this.state.index - 1;
-    this.setState({
+    this.setState((state) => ({
       index: index,
-      category: this.state.category,
-      cards: this.state.cards,
-      currentCard: this.state.cards[index],
-      cardsAreShuffled: this.state.cardsAreShuffled,
-    });
+      currentCard: state.cards[index],
+    }));
   }
 
   /**
@@ -130,13 +152,10 @@ class App extends React.Component<Props, State> {
       return;
     }
     let index = this.state.index + 1;
-    this.setState({
+    this.setState((state) => ({
       index: index,
-      category: this.state.category,
-      cards: this.state.cards,
-      currentCard: this.state.cards[index],
-      cardsAreShuffled: this.state.cardsAreShuffled,
-    });
+      currentCard: state.cards[index],
+    }));
   }
 
   /**
@@ -161,7 +180,7 @@ class App extends React.Component<Props, State> {
 
   render(): JSX.Element {
     return (
-      <div className="d-flex flex-column h-100">
+      <>
         <header>
           <nav className="navbar fixed-top navbar-light py-3 bg-light">
             <div className="container-fluid">
@@ -201,6 +220,8 @@ class App extends React.Component<Props, State> {
           </nav>
         </header>
 
+        <NotifyUpdate updateAvailable={this.state.updateAvailable} />
+
         <FlashCard
           card={this.state.currentCard}
           onSwipedLeft={() => {
@@ -238,7 +259,7 @@ class App extends React.Component<Props, State> {
             </div>
           </div>
         </footer>
-      </div>
+      </>
     );
   }
 }
